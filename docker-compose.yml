@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  rlm:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: python repl/repl.py

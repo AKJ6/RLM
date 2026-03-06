@@ -1,0 +1,5 @@
+models/
+my/
+node_modules/
+.env
+__pycache__/
